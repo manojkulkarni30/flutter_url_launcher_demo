@@ -1,17 +1,27 @@
 # flutter_url_launcher_demo
 
-A new Flutter project.
+A small Flutter demo showing how to open websites, launch the email app,
+open the phone dialer, and open SMS apps using the `url_launcher` package.
 
-## Getting Started
+This repository accompanies a YouTube video demonstrating these actions:
+"How to open website, launch email app, open phone dialer and SMS apps in
+Flutter using `url_launcher` package."
 
-This project is a starting point for a Flutter application.
+Video walkthrough
 
-A few resources to get you started if this is your first Flutter project:
+- YouTube video: [URL Launcher in Flutter: Open Web, Email & Phone Apps 📱](https://bit.ly/4qHegx0)
+- Channel: [Manoj Kulkarni](https://bit.ly/41Ryons)
 
-- [Learn Flutter](https://docs.flutter.dev/get-started/learn-flutter)
-- [Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Flutter learning resources](https://docs.flutter.dev/reference/learning-resources)
+## Features
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- Open a website in the default browser
+- Launch the email client using a `mailto:` link
+- Open the phone dialer using a `tel:` link
+- Open the SMS app using an `sms:` link
+
+## Links & Documentation
+
+- url_launcher on pub.dev: https://pub.dev/packages/url_launcher
+- url_launcher repository: https://github.com/flutter/packages/tree/main/packages/url_launcher
+
+For more details and advanced usage see the links above.
